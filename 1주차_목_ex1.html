@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1주차 실습1</title>
+    <style>
+        .{margin: 0 0;padding: 0 0;}
+        a{text-decoration: none; color: black; }
+        .nav{
+            position: fixed;
+            height: 50px; top: 0;right: 0;left: 0;
+            border-bottom: 1px solid black;
+            overflow: hidden; background-color: white;
+            z-index: 1;
+        }
+        .h,.c,.p,.d,.t{
+            float: left; font-size: ;
+            color: black; line-height: 50px;
+            border-right: 1px solid black;
+            width: 20%;text-align: center;
+            box-sizing: border-box;
+        }
+        .buffer{
+            position: relative;
+            top: -60px;
+        }
+        .wrap{
+            padding: 60px;
+            z-index: -1;margin: 0 20%;
+        }
+        #html, #css, #python, #django, #team{
+            border: 1px solid black;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="h"><a href="#html1">HTML</a> </div>
+        <div class="c"><a href="#css1">CSS</a> </div>
+        <div class="p"><a href="#python1">PYTHON</a> </div>
+        <div class="d"><a href="#django1">DJANGO</a> </div>
+        <div class="t"><a href="#team1">TEAM PROJECT</a> </div>
+    </div>
+<div class="wrap">
+    <div id="html">
+        <div id="html1" class="buffer"></div>
+        <h1>1. HTML</h1>
+        <p>1주차에는 HTML을 배웁니다.</p>
+        <p><img src="html.jpg" alt="html" width="500"height="500"></p>
+    </div>
+    <div id="css">
+        <div id="css1" class="buffer"></div>
+        <h1>2. CSS</h1>
+        <p>HTML과 더불어 CSS를 배웁니다.</p>
+        <p><img src="css.jpg" alt="css" width="500" height="500"></p>
+    </div>
+    <div id="python">
+        <div id="python1" class="buffer"></div>
+        <h1>3. PYTHON</h1>
+        <p>PYTHON을 배웁니다.</p>
+        <p><img src="python.jpg" alt="py" width="500" height="500"></p>
+    </div>
+    <div id="django">
+        <div id="django1" class="buffer"></div>
+        <h1>4. DJANGO</h1>
+        <p>DJANGO를 배웁니다.</p>
+        <p><img src="django.jpg" alt="dj" width="500" height="500"></p>
+    </div>
+    <div id="team">
+        <div id="team1" class="buffer"></div>
+        <h1>5. TEAM PROJECT</h1>
+        <p>TEAM PROJECT를 진행합니다.</p>
+        <p><img src="team.jpg" alt="team" width="500" height="500"></p>
+    </div>
+</div>
+</body>
+</html>
