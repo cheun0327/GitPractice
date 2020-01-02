@@ -1,0 +1,28 @@
+*{margin: 0 0;padding: 0 0;}
+a{text-decoration: none; color: black; }
+        .nav{
+            position: fixed;
+            height: 50px; top: 0;right: 0;left: 0;
+            border-bottom: 1px solid black;
+            overflow: hidden; background-color: white;
+            z-index: 1;
+        }
+        .h,.c,.p,.d,.t{
+            float: left;
+            color: black; line-height: 50px;
+            border-right: 1px solid black;
+            width: 20%;text-align: center;
+            box-sizing: border-box;
+        }
+        .buffer{
+            position: relative;
+            top: -60px;
+        }
+        .wrap{
+            padding: 60px;
+            z-index: -1;margin: 0 20%;
+        }
+        #html, #css, #python, #django, #team{
+            border: 1px solid black;
+            margin: 10px auto;
+        }
